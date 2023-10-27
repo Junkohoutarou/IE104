@@ -31,88 +31,101 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
-/*21520223-Nguyen Phu Hao*/
+/*21520223*/
 @font-face {
-  font-family: 'Lovato-Light';
-  src: url('font/Lovato-Light-webfont.woff') format('woff'),
-       url('font/Lovato-Light-webfont.woff2') format('woff2');
+  font-family: "Lovato-Light";
+  src:
+    url("font/Lovato-Light-webfont.woff") format("woff"),
+    url("font/Lovato-Light-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin-Slab';
-  src: url('font/JosefinSlab-Bold.ttf') format('truetype'),
-       url('font/JosefinSlab-Italic.ttf') format('truetype'),
-       url('font/JosefinSlab-Regular.ttf') format('truetype');
-  font-weight: normal;    
+  font-family: "Josefin-Slab";
+  src:
+    url("font/JosefinSlab-Bold.ttf") format("truetype"),
+    url("font/JosefinSlab-Italic.ttf") format("truetype"),
+    url("font/JosefinSlab-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
-html{
-  font-family: 'Lovato-Light', sans-serif;
+html {
+  font-family: "Lovato-Light", sans-serif;
   font-size: 10px;
 }
-h1,h2{
-  font-family: 'Josefin-Slab', serif;
+h1,h2 {
+  font-family: "Josefin-Slab", serif;
 }
-h1{
+h1 {
+  /*21520223-3.2*/
   font-size: 5rem;
   text-align: center;
 }
-h2{
+h2 {
   font-size: 3rem;
 }
-section h2 + p{
+section h2 + p {
   text-indent: 20px;
 }
-p,li{
+p,li {
   font-size: 2rem;
   line-height: 1.5;
   letter-spacing: 0.5px;
   word-spacing: 3px;
 }
-a{
+a {
   outline: none;
 }
-a[href*="http"]{
+a[href*="http"]
+ {
   padding-right: 19px;
   background: url(external-link-52.png) no-repeat 100% 0;
   background-size: 16px 16px;
 }
-a:link, a:visited{
-  color:#a66;
-}
-a:focus, a:hover{
+a:link, a:visited {
+  color: #a66;
+}  
+a:focus, a:hover {
   text-decoration: none;
 }
-a:active{
+a:active 
+{
   color: transparent;
-  text-shadow: 0px 0px 1px #f00,
-               0px 0px 2px #f00,
-               0px 0px 3px  black,
-                0px 0px 4px black; 
+  text-shadow:
+    0px 0px 1px #f00,
+    0px 0px 2px #f00,
+    0px 0px 3px black,
+    0px 0px 4px black;
 }
-ul,ol{
+ul, ol 
+{
   margin: 1.6rem 0;
 }
-ul{
+ul {
   list-style-type: square;
 }
-ol{
+ol {
   list-style-type: lower-latin;
 }
-nav ul{
+nav ul 
+{
   padding-left: 0;
   margin-top: 0.8rem;
 }
@@ -120,7 +133,7 @@ nav li {
   list-style-type: none;
   margin-bottom: 2rem;
 }
-nav li a{
+nav li a {
   text-decoration: none;
   display: inline-block;
   width: 100%;
@@ -129,11 +142,12 @@ nav li a{
   font-size: 2.5rem;
   border: 1px solid #a66;
 }
-nav li a:focus, nav li a:hover{
+nav li a:focus,
+nav li a:hover {
   background-color: #a66;
   color: white;
 }
-nav li a:active{
+nav li a:active {
   background-color: #a66;
   color: white;
 }
