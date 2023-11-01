@@ -1,22 +1,20 @@
+/*21520223*/
 body {
   background-color: #fff;
   color: #333;
   margin: 0;
   font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 .logo {
   font-size: 200%;
   padding: 50px 20px;
   margin: 0 auto;
   max-width: 980px;
 }
-
 .grid {
   margin: 0 auto;
   padding: 0 20px;
@@ -24,14 +22,15 @@ img {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-
+.photos > *{
+  flex: 1 1 50%;
+}
 nav {
   background-color: #000;
   padding: 0.5em;
-  top:0;
+  top: 0;
   position: sticky;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -39,13 +38,14 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
-
+li{
+  margin: auto;
+}
 nav a {
   color: #fff;
   text-decoration: none;
   padding: 0.5em 1em;
 }
-
 .photos {
   list-style: none;
   margin: 0;
@@ -54,14 +54,8 @@ nav a {
   grid-gap: 1px;
   grid-template-columns: 1fr 1fr;
 }
-.photos > *{
-  flex: 1 1 50%;
-}
 .feature {
   width: 200px;
   float: left;
-  margin: 0px 15px 15px 0px;
-}
-li{
-  margin: auto;
+  margin: 0 15px 15px 0;
 }
