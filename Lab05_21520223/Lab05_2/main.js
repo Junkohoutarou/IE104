@@ -1,6 +1,6 @@
 const displayedImage = document.querySelector(".displayed-img");
 const thumbBar = document.querySelector(".thumb-bar");
-
+//21520223
 const btn = document.querySelector("button");
 const overlay = document.querySelector(".overlay");
 
@@ -30,7 +30,8 @@ btn.onclick = function () {
     btn.setAttribute("class", "light");
     btn.textContent = "Lighten";
     overlay.style.background = "rgba(0,0,0,0.5)";
-  } else {
+  } 
+  else {
     btn.setAttribute("class", "dark");
     btn.textContent = "Darken";
     overlay.style.background = "rgba(0,0,0,0)";
