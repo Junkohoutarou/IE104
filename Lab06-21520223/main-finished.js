@@ -18,7 +18,6 @@ function random(min, max) {
 }
 
 // Định nghĩa constructor shape
-//21520223
 function Shape(x, y, velX, velY, exists) {
   this.x = x;
   this.y = y;
