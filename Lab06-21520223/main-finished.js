@@ -65,7 +65,6 @@ Ball.prototype.update = function () {
 };
 
 // thay đổi phương thức collisionDetect()
-//21520223
 Ball.prototype.collisionDetect = function () {
   for (var j = 0; j < balls.length; j++) {
     if (!(this === balls[j])) {
