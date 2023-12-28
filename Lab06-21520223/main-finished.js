@@ -1,5 +1,4 @@
 // Tạo biến tham chiếu p
-//21520223
 const para = document.querySelector("p");
 let count = 0;
 
