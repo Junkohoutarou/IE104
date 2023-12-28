@@ -36,7 +36,6 @@ Ball.prototype = Object.create(Shape.prototype);
 Ball.prototype.constructor = Ball;
 
 // giữ nguyên draw và update
-//21520223
 Ball.prototype.draw = function () {
   ctx.beginPath();
   ctx.fillStyle = this.color;
